@@ -92,17 +92,20 @@ Suitable for larger datasets or when predicting tissue types is the primary goal
 LightGBM is particularly well-suited for handling imbalanced datasets, where class 0 is underrepresented compared to class 1. Its ability to handle large datasets efficiently 
 and support advanced techniques like class weighting makes it a great choice.
 Key Terms
-Precision, Recall (Sensitivity),F1-score 
+Precision, Recall (Sensitivity), F1-score 
 Support: The number of actual instances of each class in the dataset.
 
 #Correlation with Tissue Type:
-Use machine learning models (e.g., logistic regression, decision trees) to predict tissue types based on PMP frequencies.
+Use machine learning models to predict tissue types based on PMP frequencies.
 Assess the specificity and sensitivity of PMPs in tissue differentiation.
-Classification Report
+
+#Classification Report
 Check precision, recall, and F1-score for each tissue class (0: Islet, 1: cfDNA).
 Focus on recall for cfDNA (to minimize false negatives) and precision for Islet (to minimize false positives).
-Feature Importance
+
+#Feature Importance
 Use the ranked PMPs to identify those most associated with tissue differentiation.
 PMPs with higher importance scores are potential biomarkers.
-AUC-ROC
+
+#AUC-ROC
 A high AUC-ROC score indicates good differentiation between tissues.
