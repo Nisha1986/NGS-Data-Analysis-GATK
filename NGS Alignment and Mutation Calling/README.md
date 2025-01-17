@@ -1,4 +1,5 @@
 NGS Alignment and Mutation Calling
+
 This repository contains the NGS Data Analysis Project, which focuses on Task 2 of a bioinformatics challenge. The primary objective is to process and analyze raw sequencing data (FASTQ files) from both normal and tumor samples using various bioinformatics tools. The workflows documented here include quality control (via FastQC), alignment (e.g., using BWA), somatic variant calling (Mutect2, VarScan2, etc.), and calculation of a background mutation level from the normal sample to ensure high-confidence identification of truly somatic mutations.
 
 Below is a concise objectives list for your NGS data analysis task, rewritten in bullet points for clarity:
