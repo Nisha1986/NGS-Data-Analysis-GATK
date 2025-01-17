@@ -87,7 +87,7 @@ fastp \
   -I PA220KH-lib09-P19-Tumor_S2_L001_R2_001.fastq \
   -o Trim_PA220KH-lib09-P19-Tumor_S2_L001_R1_001.fastq \
   -O Trim_PA220KH-lib09-P19-Tumor_S2_L001_R2_001.fastq \
-  --adapter_fasta adapter1.fasta \
+  --Illumina_universal_adapter.fasta \
   --cut_mean_quality 30
 
 ################################################################################
