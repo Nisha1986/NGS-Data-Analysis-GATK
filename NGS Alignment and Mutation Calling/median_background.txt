@@ -1,0 +1,4 @@
+Normal - Median Background Mutation Level (AF): 0.04399999976158142
+Normal - Reads Per Million Threshold (RPM): 6.278324072265164e-05
+Tumor - Median Background Mutation Level (AF): 1.0
+Tumor - Reads Per Million Threshold (RPM): 0.0015270310858756533
