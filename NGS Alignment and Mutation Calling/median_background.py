@@ -13,7 +13,7 @@ normal_bam_path = "/home/hp/Desktop/NIsha/Pupil_Bio/pupil_bio_ngs_dataset/bwa/No
 tumor_bam_path = "/home/hp/Desktop/NIsha/Pupil_Bio/pupil_bio_ngs_dataset/bwa/Tumor_Sample.sorted.bam"
 
 # Output file to save results
-output_file = "/home/hp/Desktop/NIsha/Pupil_Bio/pupil_bio_ngs_dataset/bwa/output_file.txt"
+output_file = "/home/hp/Desktop/NIsha/Pupil_Bio/pupil_bio_ngs_dataset/bwa/median_background.txt"
 
 # Step 1: Extract allele frequencies for both normal and tumor samples
 normal_allele_frequencies = []
