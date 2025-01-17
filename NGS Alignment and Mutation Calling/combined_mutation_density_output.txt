@@ -1,0 +1,10 @@
+Normal - Number of mutations: 60
+Normal - Total bases sequenced: 705790328
+Normal - Total reads: 5093165
+Normal - Mutation density (mutations per base): 8.501108278151411e-08
+Normal - Normalized mutation density (mutations per million bases): 0.08501108278151412
+Tumor - Number of mutations: 773
+Tumor - Total bases sequenced: 658816282
+Tumor - Total reads: 4717237
+Tumor - Mutation density (mutations per base): 1.1733164785383978e-06
+Tumor - Normalized mutation density (mutations per million bases): 1.1733164785383978
