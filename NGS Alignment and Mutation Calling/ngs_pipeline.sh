@@ -241,5 +241,16 @@ gatk FilterMutectCalls \
   -R ~/Desktop/demo/supporting_files/hg38/hg38.fa \
   -V Tumor_variant.vcf.gz \
   -O Tumor_filtered_variants.vcf.gz
+################################################################################
+# STEP 13 : Generate bcftools stats for Normal and Tumor
+################################################################################
+
+echo "=== Generating stats for Normal ==="
+bcftools stats Normal_filtered_variants.vcf.gz > normal_mutation_stats.txt
+
+echo "=== Generating stats for Tumor ==="
+bcftools stats Tumor_filtered_variants.vcf.gz > tumor_mutation_stats.txt
+
+echo "bcftools stats completed. Summaries in normal_mutation_stats.txt and tumor_mutation_stats.txt."
 
 echo "Pipeline complete."
