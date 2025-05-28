@@ -9,10 +9,15 @@ The goal of this project is to identify somatic variants by comparing sequencing
 NGS-Data-Analysis-GATK/
 │
 ├── data/                       # Input FASTQ or BAM files
+
 ├── reference/                 # Reference genome (e.g., hg38 or hg19) and index files
+
 ├── scripts/                   # Bash and Python scripts for analysis
+
 ├── results/                   # Output files: BAMs, VCFs, logs
+
 ├── README.md                  # This file
+
 └── pipeline.sh                # Main pipeline script
 
 Tools & Technologies
