@@ -1,4 +1,4 @@
-NGS-Data-Analysis-GAT
+............NGS-Data-Analysis-GATK.......................
 
 🔬 Project Overview
 
